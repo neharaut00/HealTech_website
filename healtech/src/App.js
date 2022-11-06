@@ -1,6 +1,7 @@
 import "./App.css";
-// import { Navbar, HeroSection, Product, WhoWeAre, TimeLine, HowItWorks, Services, Footer } from './components';
-
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./components/Navbar.js";
 import HeroSection from "./components/HeroSection.js";
 // import Product from "./components/Product.js";
@@ -11,6 +12,14 @@ import HeroSection from "./components/HeroSection.js";
 // import Footer from "./components/Footer.js";
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      mirror: true,
+      debounceDelay: 100,
+      throttleDelay: 150,
+    });
+  }, []);
   return (
     <div className="overflow-hidden">
       <Navbar />

@@ -20,7 +20,7 @@ module.exports = {
         secondary_font: "#000000",
       },
       animation: {
-        blob: "blob 7s infinite",        
+        blob: "blob 5s infinite",        
       },
       keyframes: {
         blob: {
