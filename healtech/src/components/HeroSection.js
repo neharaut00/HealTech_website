@@ -1,16 +1,17 @@
 import React from "react";
 import robo from "../assets/robo.jpg";
+import { about } from "../constants"
 
 function HeroSection() {
   return (
-    <div id="home" className="relative h-screen w-full mx-16 mb-48">
+    <div id="home" className="relative h-screen w-full mx-24 mb-48 mt-5">
       <div className="absolute top-[90px] z-[3] left-0">
-        <h1 className="main_heading font-extrabold inline font-inter text-[120px] leading-none ">
-          Solution <br />
-          for everything
+        <h1 className="main_heading font-extrabold inline font-inter text-[120px] leading-none">
+          Digitalising <br />
+          <span className="">Healthcare</span>
         </h1>
         <h3 className="font-inter text-primary_font opacity-60 block my-6 text-[30px] w-[60%]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          { about }
         </h3>
         <button className="btn-yellow inline-block w-fit h-fit py-6 px-10 text-[20px] my-14">
           Contact Us
@@ -40,14 +41,14 @@ function HeroSection() {
       </div>
       <div className="absolute top-[90px] z[-1] left-0 ">
         <h1 className="text-primary_font font-extrabold inline font-inter text-[120px] leading-none">
-          Solution <br />
-          for everything
+        Digitalising <br />
+           <span className="">Healthcare</span>
         </h1>
       </div>
       <img
         src={robo}
         alt="robo"
-        className="absolute z-[2] h-[700px] w-[700px] right-0 top-0 animate_robo"
+        className="absolute z-[2] h-[700px] w-[700px] md:opacity-60 sm:opacity-70 lg:opacity-100 right-20 -top-10 animate_robo"
       />
 
       {/* gradient start */}

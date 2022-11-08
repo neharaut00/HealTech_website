@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       colors: {
         primary_yellow: "#FEC846",
         primary_blue: "#3C68FF",
@@ -20,7 +23,7 @@ module.exports = {
         secondary_font: "#000000",
       },
       animation: {
-        blob: "blob 5s infinite",        
+        blob: "blob 3s infinite",        
       },
       keyframes: {
         blob: {

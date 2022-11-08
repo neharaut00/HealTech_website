@@ -4,12 +4,13 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./components/Navbar.js";
 import HeroSection from "./components/HeroSection.js";
-// import Product from "./components/Product.js";
-// import WhoWeAre from "./components/WhoWeAre.js";
-// import TimeLine from "./components/Timeline.js";
+import Product from "./components/Product.js";
+import WhoWeAre from "./components/WhoWeAre.js";
+import TimeLine from "./components/Timeline.js";
 // import HowItWorks from "./components/HowItWorks.js";
-// import Services from "./components/Services.js";
-// import Footer from "./components/Footer.js";
+import Services from "./components/Services.js";
+import Footer from "./components/Footer.js";
+// import ContactUs from "./components/ContactUs.js";
 
 function App() {
   useEffect(() => {
@@ -24,14 +25,14 @@ function App() {
     <div className="overflow-hidden">
       <Navbar />
       <HeroSection />
-      {/* <Product />
+      <Product />
       <WhoWeAre />
       <TimeLine />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       <Services />
+      {/* <ContactUs /> */}
       <Footer />
-      <h1 className="text-primary_font opacity-60">Neha </h1>
-      <button className="btn-yellow">Click me</button> */}
+      
     </div>
   );
 }
