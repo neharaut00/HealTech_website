@@ -7,11 +7,11 @@ function Services() {
   return (
     <div>
       <section className="flex flex-row-reverse justify-evenly mx-28 py-28 my-28">
-        <div className="z-[1] text-left">
+        <div className="z-[1] text-left ml-20">
           <h2 className="font-inter font-semibold text-[48px] text-primary_font">
             What we offer?
           </h2>
-          <p className=" max-w-[470px] text-[22px] leading-7">
+          <p className=" max-w-[500px] text-[22px] leading-7">
             {WhatWeOffer[0]} <br /> <br />
             {WhatWeOffer[1]}
           </p>

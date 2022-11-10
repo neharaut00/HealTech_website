@@ -31,11 +31,11 @@ export const product =
 export const Whoweare =
   "A team working on a mission of providing a digital healthcare platform to everyone and everywhere throughout the country targeting and being involved in the mission of digital India.";
 
-export const HowItWorks =
+export const howitworks =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci etiam dignissim vitae, purus in auctor lacus sem ac.";
 
 export const goal =
-  "To get patients’ health data digitally on a secure cloud so that it can be accessed from anywhere and to prescribe patients effectively and efficiently aiming towards Digital India.";
+  "To provide the latest technology, software, and analytics to help doctors maintain and prescribe patients efficiently at an affordable price.";
 
 export const vision =
   "To maintain all Healthcare data on one platform to be accessible from anywhere at any time.";

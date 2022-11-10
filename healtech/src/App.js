@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar.js";
 import HeroSection from "./components/HeroSection.js";
 import Product from "./components/Product.js";
 import WhoWeAre from "./components/WhoWeAre.js";
-import TimeLine from "./components/Timeline.js";
-// import HowItWorks from "./components/HowItWorks.js";
+// import TimeLine from "./components/Timeline.js";
+import HowItWorks from "./components/HowItWorks.js";
 import Services from "./components/Services.js";
 import Footer from "./components/Footer.js";
 // import ContactUs from "./components/ContactUs.js";
@@ -27,8 +27,8 @@ function App() {
       <HeroSection />
       <Product />
       <WhoWeAre />
-      <TimeLine />
-      {/* <HowItWorks /> */}
+      {/* <TimeLine /> */}
+      <HowItWorks />
       <Services />
       {/* <ContactUs /> */}
       <Footer />
