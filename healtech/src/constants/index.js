@@ -1,9 +1,7 @@
-
 import facebook from "../assets/facebook.svg";
-import instagram from "../assets/instagram.svg"
+import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
-
 
 export const navLinks = [
   {
@@ -24,10 +22,8 @@ export const navLinks = [
   },
 ];
 
-export const about = "Lorem ipsum dolor sit amet,consectetur adipiscing elit.";
-export const product =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci etiam dignissim vitae, purus in auctor lacus sem ac. Molestie habitant phasellus amet condimentum ut sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci etiam dignissim vitae, purus in auctor lacus sem ac. Molestie habitant phasellus amet condimentum ut sit.";
-
+export const about = "A Healthcare platform accessible from anywhere at anytime.";
+export const product = "Most doctors in India are not using HDMs (Health data monitoring systems) due to unavailability and the cost of the software. This results in many patients not getting adequate treatment and doctors have to start the whole treatment process once a patient enters the clinic. To quicken the process, we aim to provide a SaaS-based software with minimal cost and get maximum patients on it benefiting both sides in maintaining health data.";
 export const Whoweare =
   "A team working on a mission of providing a digital healthcare platform to everyone and everywhere throughout the country targeting and being involved in the mission of digital India.";
 
@@ -43,7 +39,7 @@ export const vision =
 export const mission =
   "To get patients’ health data digitally on a secure cloud so that it can be accessed from anywhere and to prescribe patients effectively and efficiently aiming towards Digital India.";
 
-export const WhatWeOffer = [
+export const whatweoffer = [
   "At HealTech, we understand what it takes to build a top-notch software product with minimum intervention. Our singular determination is to help you maintain health data that can be digitally accessible everywhere with top-class security and the latest technology.",
   "We are here to help doctors with the latest and intelligent software developed on cutting - edge technology and patients with an application targeting it as a health record.We aim to get all doctors on the platform and help them.",
 ];

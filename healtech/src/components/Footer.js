@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.jpg";
-import {socialMedia} from "../constants"
+import { socialMedia } from "../constants";
 
 function Footer() {
   return (
@@ -11,29 +11,30 @@ function Footer() {
         </div>
         <div className="z-[1] text-right">
           <p className=" max-w-[470px] text-[18px] leading-7">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci etiam
-            dignissim vitae, purus in auctor lacus sem ac
+            ESD Ethos, 2nd Floor Plot No 22/3,
+            <br />
+            Hadapsar Industrial Estate, Pune 411013
           </p>
-          <br/>
+          <br />
           <p className=" max-w-[470px] text-[18px] leading-7">
-            healtech@info.com
+            patilgaurav345@gmail.com
           </p>
-          <br/>
+          <br />
           <p className=" max-w-[470px] text-[18px] leading-7">+91 1234567890</p>
           <br />
           <div className="flex justify-end flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
-          <img
-            key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
-          />
-        ))}
-      </div>
+            {socialMedia.map((social, index) => (
+              <img
+                key={social.id}
+                src={social.icon}
+                alt={social.id}
+                className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+                  index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+                }`}
+                onClick={() => window.open(social.link)}
+              />
+            ))}
+          </div>
         </div>
       </div>
       <hr />

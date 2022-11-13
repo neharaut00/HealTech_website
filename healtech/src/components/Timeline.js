@@ -1,93 +1,124 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 
-import TimelineObserver from "react-timeline-animation";
-const TimeLineFunction = ({ setObserver, callback }) => {
-  const [message1, setMessage1] = useState("");
-  const [message2, setMessage2] = useState("");
-  const [message3, setMessage3] = useState("");
-
-  const timeline1 = useRef(null);
-  const timeline2 = useRef(null);
-  const timeline3 = useRef(null);
-  const circle1 = useRef(null);
-  const circle2 = useRef(null);
-  const circle3 = useRef(null);
-
-  const someCallback = () => {
-    setMessage1("Step one");
-    callback();
-  };
-
-  const someCallback2 = () => {
-    setMessage2("Step two");
-  };
-
-  const someCallback3 = () => {
-    setMessage3("Finish");
-    // fireConfetti();
-  };
-
-  useEffect(() => {
-    setObserver(timeline1.current);
-    setObserver(timeline2.current);
-    setObserver(timeline3.current);
-    setObserver(circle1.current, someCallback);
-    setObserver(circle2.current, someCallback2);
-    setObserver(circle3.current, someCallback3);
-  }, []);
-
+function Timeline() {
   return (
-    <div className="wrapper">
-      <div id="timeline1" ref={timeline1} className="timeline" />
-      <div className="circleWrapper">
-        <div id="circle1" ref={circle1} className="circle">
-          <span className="invisible">1</span>
-        </div>
-        <div className="message">{message1}</div>
-      </div>
-      <div id="timeline2" ref={timeline2} className="timeline" />
-      <div className="circleWrapper">
-        <div id="circle2" ref={circle2} className="circle">
-        <span className="invisible">1</span>
-        </div>
-        <div className="message">{message2}</div>
-      </div>
-      <div id="timeline3" ref={timeline3} className="timeline" />
-      <div className="circleWrapper">
-        <div id="circle3" ref={circle3} className="circle">
-           <span className="invisible">1</span>
-        </div>
-        <div className="message">{message3}</div>
-      </div>
-    </div>
-  );
-};
+    <div className=" my-20 ml-40 py-12">
+      <div class="p-4 mt-4">
+        <div class="container">
+          <div class="flex flex-col md:grid grid-cols-12 ">
+            <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 md:mx-auto relative">
+                <div class="h-full w-8">
+                  <div class="h-full bg-transparent font-inter font-bold text-[54px] text-primary_font leading-tight mb-10">
+                    Our <br />
+                    Timeline
+                  </div>
+                </div>
+              </div>
+            </div>
 
-export default function Timeline() {
-  const [message, setMessage] = useState("");
+            <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                <div class="h-full w-12 flex items-start justify-center">
+                  <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-circle"></div>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <h3 class="timeline-heading">Registered Company</h3>
+                <p class=" timeline-subheading">15th Nov 2021</p>
+              </div>
+            </div>
 
-  const onCallback = () => {
-    console.log("awesome");
-  };
+            <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                <div class="h-full w-12 flex items-start justify-center">
+                  <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-circle"></div>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <h3 class="timeline-heading">Came up with idea DocER</h3>
+                <p class=" timeline-subheading">23th Nov 2021</p>
+              </div>
+            </div>
 
-  return (
-    <div className="App">
-      <h1>react-scroll-animation component</h1>
-      <TimelineObserver
-        initialColor="#e5e5e5"
-        fillColor="#3C68FF"
-        handleObserve={(setObserver) => (
-          <TimeLineFunction
-            callback={onCallback}
-            className="timeline"
-            setObserver={setObserver}
-          />
-        )}
-      />
-      <div className="stub2">{message}</div>
+            <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                <div class="h-full w-12 flex items-start justify-center">
+                  <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-circle"></div>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <h3 class="timeline-heading">Survey on DocER</h3>
+                <p class=" timeline-subheading">1st Dec 2021</p>
+              </div>
+            </div>
+
+            <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                <div class="h-full w-12 flex items-start justify-center">
+                  <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-circle"></div>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <h3 class="timeline-heading">Analysis</h3>
+                <p class=" timeline-subheading">1st April 2022</p>
+              </div>
+            </div>
+
+            <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                <div class="h-full w-12 flex items-start justify-center">
+                  <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-circle"></div>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <h3 class="timeline-heading">Startup by DPIIT</h3>
+                <p class=" timeline-subheading">6th May 2022</p>
+              </div>
+            </div>
+
+            <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                <div class="h-full w-12 flex items-start justify-center">
+                  <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-circle"></div>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <h3 class="timeline-heading">Development</h3>
+                <p class=" timeline-subheading">20th October 2022</p>
+              </div>
+            </div>
+
+
+            
+
+            {/* <div class="flex md:contents">
+              <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-300 pointer-events-none"></div>
+                </div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-300 shadow text-center">
+                  <i class="fas fa-exclamation-circle text-gray-400"></i>
+                </div>
+              </div>
+              <div class="bg-gray-300 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
+                <h3 class="font-semibold text-lg mb-1 text-gray-400">
+                  Delivered
+                </h3>
+                <p class="leading-tight text-justify"></p>
+              </div>
+            </div> */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-
-// export default Timeline;
+export default Timeline;

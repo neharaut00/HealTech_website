@@ -6,11 +6,12 @@ import Navbar from "./components/Navbar.js";
 import HeroSection from "./components/HeroSection.js";
 import Product from "./components/Product.js";
 import WhoWeAre from "./components/WhoWeAre.js";
-// import TimeLine from "./components/Timeline.js";
+import TimeLine from "./components/Timeline.js";
 import HowItWorks from "./components/HowItWorks.js";
 import Services from "./components/Services.js";
 import Footer from "./components/Footer.js";
-// import ContactUs from "./components/ContactUs.js";
+import ContactUs from "./components/ContactUs.js";
+import WhatWeOffer from "./components/WhatWeOffer.js";
 
 function App() {
   useEffect(() => {
@@ -26,11 +27,12 @@ function App() {
       <Navbar />
       <HeroSection />
       <Product />
-      <WhoWeAre />
-      {/* <TimeLine /> */}
+      <WhoWeAre />      
       <HowItWorks />
+      <TimeLine />   
+      <WhatWeOffer />
       <Services />
-      {/* <ContactUs /> */}
+      <ContactUs />
       <Footer />
       
     </div>
