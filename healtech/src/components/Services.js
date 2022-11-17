@@ -5,7 +5,7 @@ import services from "../assets/services.svg";
 function Services() {
   return (
     <div>      
-      <section className="flex justify-center mx-20 my-20 py-12">
+      <section className="flex justify-center mx-20 my-20 py-12">    
         <div className="z-[1] max-w-[50%] pr-20">
           <p className="text-[36px] leading-9 my-10 font-inter font-semibold text-gray-500" data-aos="fade-right" data-aos-once="true">
             We offer wide and insightful range of product and services

@@ -48,12 +48,12 @@ function HeroSection() {
       <img
         src={robo}
         alt="robo"
-        className="absolute z-[2] h-[700px] w-[700px] md:opacity-60 sm:opacity-70 lg:opacity-100 right-20 -top-10 animate_robo"
+        className="absolute z-[2] h-[700px] w-[700px] md:opacity-60 sm:opacity-70 lg:opacity-100 right-20 -top-10"
       />
 
       {/* gradient start */}
-      <div className="absolute z-[-2] w-[40%] h-[60%] top-20 -left-28 rounded-full animate-blob yellow__gradient animation-delay-4000" />
-      <div className="absolute z-[-2] w-[60%] h-[80%] -right-28 rounded-full top-20 animate-blob blue__gradient" />
+      <div className="absolute z-[-2] w-[40%] h-[60%] top-20 -left-28 rounded-full yellow__gradient" />
+      <div className="absolute z-[-2] w-[60%] h-[80%] -right-28 rounded-full top-20 blue__gradient" />
       {/* gradient end */}
     </div>
   );

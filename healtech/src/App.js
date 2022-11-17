@@ -2,6 +2,7 @@ import "./App.css";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import 'react-toastify/dist/ReactToastify.css';
 import Navbar from "./components/Navbar.js";
 import HeroSection from "./components/HeroSection.js";
 import Product from "./components/Product.js";
@@ -27,10 +28,10 @@ function App() {
       <Navbar />
       <HeroSection />
       <Product />
-      <WhoWeAre />      
-      <HowItWorks />
-      <TimeLine />   
-      <WhatWeOffer />
+      <HowItWorks /> 
+      <WhoWeAre />       
+      <TimeLine />       
+      <WhatWeOffer />   
       <Services />
       <ContactUs />
       <Footer />

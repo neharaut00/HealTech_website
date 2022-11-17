@@ -24,19 +24,19 @@
     @apply bg-gray-200 border border-gray-200 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder:text-black;
   }
   .timeline-line {
-    @apply h-[200px] w-0.5 bg-primary_blue;
+    @apply h-[200px] w-1 bg-primary_yellow;
   }
   .timeline-circle {
-    @apply w-12 h-12 absolute top-1/4 -mt-3 rounded-full bg-primary_blue shadow text-center;
+    @apply w-12 h-12 absolute top-1/4 -mt-3 rounded-full bg-primary_yellow shadow text-center;
   }
   .timeline-content {
     @apply bg-transparent col-start-4 col-end-12 p-4 mt-3 rounded-xl mr-auto w-full hover:border border-gray-400 h-fit;
   }
   .timeline-heading {
-    @apply font-inter font-bold text-primary_font text-[36px] mb-1;
+    @apply font-inter font-bold text-white text-[36px] mb-1;
   }
   .timeline-subheading {
-    @apply leading-tight text-justify text-primary_font text-[20px] opacity-60 font-inter font-medium;
+    @apply leading-tight text-justify text-white text-[20px] opacity-60 font-inter font-medium;
   }
 }
 

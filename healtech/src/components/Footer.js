@@ -4,13 +4,16 @@ import { socialMedia } from "../constants";
 
 function Footer() {
   return (
-    <section className="mx-28 mt-28 font-medium text-primary_font">
+    <div className="bg-primary_font py-2 mt-28 ">
+    <section className="mx-28 font-normal text-white ">
       <div className="flex justify-between mb-5">
         <div className="">
           <img src={logo} alt="logo" />
         </div>
         <div className="z-[1] text-right">
-          <p className=" max-w-[470px] text-[18px] leading-7">
+            <p className=" max-w-[470px] text-[18px] leading-7">
+              HEALTECH PRODUCT (OPC) PVT. LTD. 
+              <br/>
             ESD Ethos, 2nd Floor Plot No 22/3,
             <br />
             Hadapsar Industrial Estate, Pune 411013
@@ -50,7 +53,8 @@ function Footer() {
           </p>
         </div>
       </div>
-    </section>
+      </section>
+      </div>
   );
 }
 

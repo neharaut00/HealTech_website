@@ -2,14 +2,14 @@ import React from "react";
 
 function Timeline() {
   return (
-    <div className=" my-20 ml-40 py-12">
+    <div className=" my-20 ml-40 py-12 bg-primary_font mr-40 rounded-[50px] box-shadow">
       <div class="p-4 mt-4">
         <div class="container">
           <div class="flex flex-col md:grid grid-cols-12 ">
             <div class="flex md:contents">
               <div class="col-start-2 col-end-4 md:mx-auto relative">
                 <div class="h-full w-8">
-                  <div class="h-full bg-transparent font-inter font-bold text-[54px] text-primary_font leading-tight mb-10">
+                  <div class="h-full bg-transparent font-inter font-bold text-[54px] text-white leading-tight mb-10">
                     Our <br />
                     Timeline
                   </div>
@@ -22,7 +22,7 @@ function Timeline() {
                 <div class="h-full w-12 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
-                <div class="timeline-circle"></div>
+                <div class="timeline-circle" data-aos="zoom-in"></div>
               </div>
               <div data-aos="fade-left" class="timeline-content">
                 <h3 class="timeline-heading">Registered Company</h3>
@@ -35,7 +35,7 @@ function Timeline() {
                 <div class="h-full w-12 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
-                <div class="timeline-circle"></div>
+                <div class="timeline-circle" data-aos="zoom-in"></div>
               </div>
               <div data-aos="fade-left" class="timeline-content">
                 <h3 class="timeline-heading">Came up with idea DocER</h3>
@@ -48,7 +48,7 @@ function Timeline() {
                 <div class="h-full w-12 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
-                <div class="timeline-circle"></div>
+                <div class="timeline-circle" data-aos="zoom-in"></div>
               </div>
               <div data-aos="fade-left" class="timeline-content">
                 <h3 class="timeline-heading">Survey on DocER</h3>
@@ -61,7 +61,7 @@ function Timeline() {
                 <div class="h-full w-12 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
-                <div class="timeline-circle"></div>
+                <div class="timeline-circle" data-aos="zoom-in"></div>
               </div>
               <div data-aos="fade-left" class="timeline-content">
                 <h3 class="timeline-heading">Analysis</h3>
@@ -74,7 +74,7 @@ function Timeline() {
                 <div class="h-full w-12 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
-                <div class="timeline-circle"></div>
+                <div class="timeline-circle" data-aos="zoom-in"></div>
               </div>
               <div data-aos="fade-left" class="timeline-content">
                 <h3 class="timeline-heading">Startup by DPIIT</h3>
@@ -87,7 +87,7 @@ function Timeline() {
                 <div class="h-full w-12 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
-                <div class="timeline-circle"></div>
+                <div class="timeline-circle" data-aos="zoom-in"></div>
               </div>
               <div data-aos="fade-left" class="timeline-content">
                 <h3 class="timeline-heading">Development</h3>
