@@ -4,19 +4,19 @@ import { about } from "../constants"
 
 function HeroSection() {
   return (
-    <div id="home" className="relative h-screen w-full mx-24 mb-48 mt-5">
-      <div className="absolute top-[90px] z-[3] left-0">
-        <h1 className="main_heading font-extrabold inline font-inter text-[120px] leading-none">
+    <div id="home" className="relative h-[400px] xs:h-[550px] w-full mx-8 mt-10 mb-0 sm:mx-10 md:mx-24 md:mb-56 md:mt-5">
+      <div className="absolute top-[0px] md:top-[50px] lg:top-[90px] z-[3] mx-8 -left-10 md:-left-20 lg:left-0 ">
+        <h1 className="text-primary_font font-extrabold inline font-inter text-[60px] lg:text-[120px] sm:text-[100px] leading-none">
           Digitalising <br />
           <span className="">Healthcare</span>
         </h1>
-        <h3 className="font-inter text-primary_font opacity-60 block my-6 text-[30px] w-[60%]">
+        <h3 className="font-inter text-primary_font opacity-60 block my-2 md:my-6 text-[20px] sm:text-[30px] w-[80%] md:w-[60%]">
           { about }
         </h3>
-        <button className="btn-yellow inline-block w-fit h-fit py-6 px-10 text-[20px] my-14">
+        <button className="btn-yellow inline-block w-fit h-fit py-4 px-8 md:py-6 md:px-10 text-[16px] md:text-[20px] my-3 lg:my-14">
           Contact Us
         </button>
-        <button className="btn-white inline w-fit h-fit py-6 px-10 text-[20px] my-14 mx-6">
+        <button className="btn-white inline w-fit h-fit py-4 px-8 md:py-6 md:px-10 text-[16px] md:text-[20px] my-3 lg:my-14">
           Scroll{" "}
           <svg
             className="inline"
@@ -39,8 +39,8 @@ function HeroSection() {
           </svg>
         </button>
       </div>
-      <div className="absolute top-[90px] z[-1] left-0 ">
-        <h1 className="text-primary_font font-extrabold inline font-inter text-[120px] leading-none">
+      <div className="absolute top-[0px] md:top-[50px] lg:top-[90px] z[-1] mx-8 -left-10 md:-left-20 lg:left-0 ">
+        <h1 className="text-primary_font font-extrabold font-inter text-[60px] lg:text-[120px] sm:text-[100px] leading-none">
         Digitalising <br />
            <span className="">Healthcare</span>
         </h1>
@@ -48,7 +48,7 @@ function HeroSection() {
       <img
         src={robo}
         alt="robo"
-        className="absolute z-[2] h-[700px] w-[700px] md:opacity-60 sm:opacity-70 lg:opacity-100 right-20 -top-10"
+        className="invisible md:visible absolute z-[2] md:h-[500px] md:w-[500px] lg:h-[700px] lg:w-[700px] right-20 -top-10"
       />
 
       {/* gradient start */}

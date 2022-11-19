@@ -23,9 +23,9 @@ function ContactUs() {
     e.target.reset();
   };
   return (
-    <div className="mx-28 my-20 py-12">    
-      <div className="sm:w-[100%] md:[100%] lg:w-[75%] leading-tight pb-16">
-        <h1 className="text-[64px] font-inter text-primary_font font-bold">
+    <div className="mx-14 my-14 lg:mx-28 lg:my-20 py-12">    
+      <div className="leading-tight pb-16">
+        <h1 className="text-[36px] xs:text-[40px] sm:text-[52px] lg:text-[64px] font-inter text-primary_font font-bold">
           Love to hear from you, Get in touch 👋🏻
         </h1>
       </div>
@@ -96,7 +96,7 @@ function ContactUs() {
               required
             />
           </div>
-          <button className="btn-yellow min-w-[50%] mt-8" type="submit" value="Send" onClick={showToastMessage}>
+          <button className="btn-yellow min-w-[100%] lg:min-w-[50%] mt-8" type="submit" value="Send" onClick={showToastMessage}>
             Just Send
           </button>
           <ToastContainer />

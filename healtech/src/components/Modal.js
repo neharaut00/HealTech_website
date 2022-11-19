@@ -6,7 +6,7 @@ function Modal({ visible, onClose }) {
 
   return (
     <div className="fixed inset-0 z-[5] bg-black bg-opacity-10 backdrop-blur-lg flex justify-center items-center ">
-      <div className="bg-white rounded-[50px] box-shadow py-10 px-14 mx-14">
+      <div className="bg-white rounded-[50px] box-shadow py-10 px-14 mx-0 xl:mx-14">
         <div className="flex flex-row justify-between flex-1">
           <div className=" text-[18px] inline flex-1">
             <p className="font-inter font-extrabold text-[48px] text-primary_font leading-10">
@@ -14,7 +14,7 @@ function Modal({ visible, onClose }) {
             </p>
           </div>
           <div className=" text-[18px] inline flex-1">
-            <p className="font-inter font-extrabold text-[48px] text-primary_font leading-10">
+            <p className="font-inter text-left font-extrabold text-[48px] text-primary_font leading-10">
               Problem being Solved:
             </p>
           </div>
@@ -51,7 +51,7 @@ function Modal({ visible, onClose }) {
         </div>
         <button
           onClick={onClose}
-          className="btn-white bg-black text-white font-inter font-extrabold mt-10 py-5 px-10 text-[22px]"
+          className="btn-white bg-black text-white font-inter font-extrabold mt-10 py-2 px-7 text-[18px] sm:py-5 sm:px-10 sm:text-[22px]"
         >
           Back
         </button>

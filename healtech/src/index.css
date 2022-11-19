@@ -18,7 +18,7 @@
     animation-delay: 4s;
   }
   .text-field-label {
-    @apply block mb-2 text-[20px] font-inter font-medium text-black;
+    @apply block mb-2 text-[16px] lg:text-[20px] font-inter font-medium text-black;
   }
   .text-field {
     @apply bg-gray-200 border border-gray-200 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder:text-black;
