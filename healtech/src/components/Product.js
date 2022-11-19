@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "../assets/stethoscope1.png";
 import { product } from "../constants";
-
+import Modal from "./Modal.js";
 function Product() {
+  const [showModal, setShowModal] = useState(false);
+  const handleOnClose = () => setShowModal(false);
+
   return (
     <section className="flex justify-start relative mx-16 py-14 my-16 bg-primary_yellow rounded-[50px] box-shadow">
       <div>
@@ -11,7 +14,7 @@ function Product() {
             DocER
           </h2>
           <p className=" max-w-[470px] mt-5 text-[18px] leading-7">{product}</p>
-          <button className="btn-white bg-black text-white font-inter font-extrabold mt-10 py-5 px-10 text-[22px]">
+          <button onClick={()=> setShowModal(true)} className="btn-white bg-black text-white font-inter font-extrabold mt-10 py-5 px-10 text-[22px]">
             Learn More
           </button>
         </div>
@@ -25,7 +28,7 @@ function Product() {
         </div>
       </div>
       <div>
-        
+        <Modal visible={showModal} onClose={handleOnClose } />
       </div>
     </section>
   );
