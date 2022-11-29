@@ -4,8 +4,8 @@ import { about } from "../constants"
 
 function HeroSection() {
   return (
-    <div id="home" className="relative h-[400px] xs:h-[550px] w-full mx-8 mt-10 mb-0 sm:mx-10 md:mx-24 md:mb-56 md:mt-5">
-      <div className="absolute top-[0px] md:top-[50px] lg:top-[90px] z-[3] mx-8 -left-10 md:-left-20 lg:left-0 ">
+    <div className="relative h-[400px] xs:h-[550px] w-full mx-8 mt-10 mb-0 sm:mx-10 md:mx-24 md:mb-56 md:mt-5">
+      <div id="about" className="absolute top-[0px] md:top-[50px] lg:top-[90px] z-[3] mx-8 -left-10 md:-left-20 lg:left-0 ">
         <h1 className="text-primary_font font-extrabold inline font-inter text-[60px] lg:text-[120px] sm:text-[100px] leading-none">
           Digitalising <br />
           <span className="">Healthcare</span>

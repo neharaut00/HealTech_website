@@ -9,7 +9,10 @@ function Product() {
   const [flip, setFlip] = useState(false);
   return (
     <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
-      <div className="flex justify-center text-justify lg:justify-start relative xs:mx-5 sm:mx-16 py-10 px-5 lg:py-14 my-16 bg-primary_yellow xs:rounded-[50px] box-shadow">
+      <div
+        className="flex justify-center text-justify lg:justify-start relative xs:mx-5 sm:mx-16 py-10 px-5 lg:py-14 my-16 bg-primary_yellow xs:rounded-[50px] box-shadow"
+        id="product"
+      >
         <div>
           <div className="z-[1] lg:pl-20 px-10">
             <h2 className="font-inter text-center lg:text-left font-extrabold text-[64px] text-primary_font">
@@ -46,10 +49,9 @@ function Product() {
       </div>
       <div className="flex justify-center text-justify lg:justify-start relative xs:mx-5 sm:mx-10 py-10 px-4 lg:py-14 my-16 bg-primary_yellow xs:rounded-[50px] box-shadow">
         <div className="py-2 px-5">
-          
           <div className="block sm:flex sm:flex-row sm:justify-between flex-1">
             <div className="text-[16px] sm:text-left text-center inline flex-1">
-            <p className="font-inter font-extrabold text-[36px] text-primary_font leading-10">
+              <p className="font-inter font-extrabold text-[36px] text-primary_font leading-10">
                 Features
               </p>
               <ul className="ml-4 mt-3">
@@ -63,7 +65,7 @@ function Product() {
               </ul>
             </div>
             <div className=" text-[16px] text-center sm:text-left inline flex-1">
-            <p className="font-inter font-extrabold mt-5 sm:mt-0 text-[36px] text-primary_font leading-10">
+              <p className="font-inter font-extrabold mt-5 sm:mt-0 text-[36px] text-primary_font leading-10">
                 Solution
               </p>
               <ul className="ml-4 mt-3">
@@ -71,12 +73,12 @@ function Product() {
                 <li>- Generating prescription digitally.</li>
                 <li>- Patient with all medical history online</li>
                 <li>
-                  - Prescription generation way faster than physical prescription
-                  in writing mode.
+                  - Prescription generation way faster than physical
+                  prescription in writing mode.
                 </li>
                 <li>
-                  - Appointment dashboard for doctors with option of rescheduling
-                  them.
+                  - Appointment dashboard for doctors with option of
+                  rescheduling them.
                 </li>
                 <li>- Appointment booking for patient.</li>
                 <li>- Major Alarms for Patient as well as Doctors</li>

@@ -23,7 +23,7 @@ function ContactUs() {
     e.target.reset();
   };
   return (
-    <div className="mx-14 my-14 lg:mx-28 lg:my-20 py-12">    
+    <div className="mx-14 my-14 lg:mx-28 lg:my-20 py-12" id="contact">    
       <div className="leading-tight pb-16">
         <h1 className="text-[36px] xs:text-[40px] sm:text-[52px] lg:text-[64px] font-inter text-primary_font font-bold">
           Love to hear from you, Get in touch 👋🏻

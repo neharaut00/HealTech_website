@@ -5,7 +5,7 @@ import { whatweoffer } from "../constants";
 function WhatWeOffer() {
   return (
     <div>
-      <section className="flex flex-row-reverse justify-evenly mx-6 xs:mx-8 my-14 sm:mx-28 sm:my-20 mb-5 relative">
+      <section className="flex flex-row-reverse justify-evenly mx-6 xs:mx-8 my-14 sm:mx-28 sm:my-20 mb-5 relative" id="services">
         {/* <div className="absolute z-[-2] w-[40%] h-[60%] top-0 -left-36 rounded-full blue__gradient opacity-70" /> */}
         {/* <div className="absolute z-[-2] w-[50%] h-[80%] -right-72 top-28 rounded-full yellow__gradient opacity-70" /> */}
         <div
