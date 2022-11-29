@@ -2,7 +2,7 @@ import React from "react";
 
 function Timeline() {
   return (
-    <div className=" my-20 ml-40 py-12 bg-primary_font mr-40 rounded-[50px] box-shadow">
+    <div className=" my-20 mx-0 p-12 xs:mx-5 xs:p-10 sm:mx-10 sm:p-5 md:px-0  md:mx-16 lg:mx-40 py-12 bg-primary_font xs:rounded-[50px] box-shadow">
       <div class="p-4 mt-4">
         <div class="container">
           <div class="flex flex-col md:grid grid-cols-12 ">
@@ -19,7 +19,7 @@ function Timeline() {
 
             <div class="flex md:contents">
               <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-                <div class="h-full w-12 flex items-start justify-center">
+                <div class="h-full w-10 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
                 <div class="timeline-circle" data-aos="zoom-in"></div>
@@ -32,7 +32,7 @@ function Timeline() {
 
             <div class="flex md:contents">
               <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-                <div class="h-full w-12 flex items-start justify-center">
+                <div class="h-full w-10 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
                 <div class="timeline-circle" data-aos="zoom-in"></div>
@@ -45,7 +45,7 @@ function Timeline() {
 
             <div class="flex md:contents">
               <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-                <div class="h-full w-12 flex items-start justify-center">
+                <div class="h-full w-10 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
                 <div class="timeline-circle" data-aos="zoom-in"></div>
@@ -58,7 +58,7 @@ function Timeline() {
 
             <div class="flex md:contents">
               <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-                <div class="h-full w-12 flex items-start justify-center">
+                <div class="h-full w-10 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
                 <div class="timeline-circle" data-aos="zoom-in"></div>
@@ -71,7 +71,7 @@ function Timeline() {
 
             <div class="flex md:contents">
               <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-                <div class="h-full w-12 flex items-start justify-center">
+                <div class="h-full w-10 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
                 <div class="timeline-circle" data-aos="zoom-in"></div>
@@ -84,7 +84,7 @@ function Timeline() {
 
             <div class="flex md:contents">
               <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-                <div class="h-full w-12 flex items-start justify-center">
+                <div class="h-full w-10 flex items-start justify-center">
                   <div class="timeline-line"></div>
                 </div>
                 <div class="timeline-circle" data-aos="zoom-in"></div>
