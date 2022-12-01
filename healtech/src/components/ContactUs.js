@@ -12,8 +12,8 @@ function ContactUs() {
 };
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm("service_2e0lhu8","template_jeis8ii", form.current, 'aVvQDYz9YapWQt9aj')
+    
+    emailjs.sendForm("service_cy3jh3e","template_i29s1e8", form.current, 'aVvQDYz9YapWQt9aj')
       .then((result) => {
         console.log(result.text);
         console.log("Message Sent");

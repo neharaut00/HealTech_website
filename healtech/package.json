@@ -1,6 +1,7 @@
 {
   "name": "healtech",
   "version": "0.1.0",
+  "homepage": "http://healtech.co.in",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
