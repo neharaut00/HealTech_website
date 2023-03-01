@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/%7Brepo-name%7D/static/css/main.a1369101.css",
-    "main.js": "/%7Brepo-name%7D/static/js/main.c7016c4a.js",
+    "main.js": "/%7Brepo-name%7D/static/js/main.2aca62e7.js",
     "static/media/Robot-HealTech.png": "/%7Brepo-name%7D/static/media/Robot-HealTech.0a9e8f3427776240e75e.png",
     "static/media/img1.jpg": "/%7Brepo-name%7D/static/media/img1.f9ad2016ed3a236f1f85.jpg",
     "static/media/robo.jpg": "/%7Brepo-name%7D/static/media/robo.5486acae05be94aea589.jpg",
@@ -19,10 +19,10 @@
     "static/media/vision.svg": "/%7Brepo-name%7D/static/media/vision.2e9196f3e6f21f7b5d435865326300c7.svg",
     "static/media/facebook.svg": "/%7Brepo-name%7D/static/media/facebook.4e3799aca9be41a668aec1d9f981b8e1.svg",
     "main.a1369101.css.map": "/%7Brepo-name%7D/static/css/main.a1369101.css.map",
-    "main.c7016c4a.js.map": "/%7Brepo-name%7D/static/js/main.c7016c4a.js.map"
+    "main.2aca62e7.js.map": "/%7Brepo-name%7D/static/js/main.2aca62e7.js.map"
   },
   "entrypoints": [
     "static/css/main.a1369101.css",
-    "static/js/main.c7016c4a.js"
+    "static/js/main.2aca62e7.js"
   ]
 }
