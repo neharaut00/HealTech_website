@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/%7Brepo-name%7D/static/css/main.a1369101.css",
+    "main.js": "/%7Brepo-name%7D/static/js/main.c7016c4a.js",
+    "static/media/Robot-HealTech.png": "/%7Brepo-name%7D/static/media/Robot-HealTech.0a9e8f3427776240e75e.png",
+    "static/media/img1.jpg": "/%7Brepo-name%7D/static/media/img1.f9ad2016ed3a236f1f85.jpg",
+    "static/media/robo.jpg": "/%7Brepo-name%7D/static/media/robo.5486acae05be94aea589.jpg",
+    "static/media/stethoscope1.png": "/%7Brepo-name%7D/static/media/stethoscope1.43108a004a0417aa0120.png",
+    "static/media/services.svg": "/%7Brepo-name%7D/static/media/services.4fbc6055eb7a77a84a6e33057629cc47.svg",
+    "static/media/logo.jpg": "/%7Brepo-name%7D/static/media/logo.819584818e5bf8330581.jpg",
+    "static/media/instagram.svg": "/%7Brepo-name%7D/static/media/instagram.376b3bd28f5228db75cfaf14f20f515f.svg",
+    "static/media/close.svg": "/%7Brepo-name%7D/static/media/close.419e4be379eb4aefb885fe04e38f7bd5.svg",
+    "static/media/mission.svg": "/%7Brepo-name%7D/static/media/mission.90a29facae57d39c89326a48e02f40cc.svg",
+    "static/media/menu.svg": "/%7Brepo-name%7D/static/media/menu.e0b090e84ec464ece9003f5874d60d7d.svg",
+    "static/media/twitter.svg": "/%7Brepo-name%7D/static/media/twitter.aa3f654bec2fe6418ce4ac4f22d692d9.svg",
+    "static/media/linkedin.svg": "/%7Brepo-name%7D/static/media/linkedin.c2cf914aa918a136de503ce2b2470d54.svg",
+    "static/media/goal.svg": "/%7Brepo-name%7D/static/media/goal.deb6e4fac8d22c2c02fd8aaf11edf6fc.svg",
+    "index.html": "/%7Brepo-name%7D/index.html",
+    "static/media/vision.svg": "/%7Brepo-name%7D/static/media/vision.2e9196f3e6f21f7b5d435865326300c7.svg",
+    "static/media/facebook.svg": "/%7Brepo-name%7D/static/media/facebook.4e3799aca9be41a668aec1d9f981b8e1.svg",
+    "main.a1369101.css.map": "/%7Brepo-name%7D/static/css/main.a1369101.css.map",
+    "main.c7016c4a.js.map": "/%7Brepo-name%7D/static/js/main.c7016c4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1369101.css",
+    "static/js/main.c7016c4a.js"
+  ]
+}
